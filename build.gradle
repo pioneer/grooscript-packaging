@@ -1,0 +1,8 @@
+plugins {
+  id "org.grooscript.conversion" version "0.6"
+}
+
+grooscript {
+  source = ['src/main/groovy',
+            'src/main/groovy/packaging']
+}
